@@ -9,12 +9,6 @@ status of the application at the end of each chapter.
 
 Link to heroku: https://tracker-ui-pantu16.herokuapp.com
 
-Link to Repositories
-
-https://github.ccs.neu.edu/pantu16/tracker-api
-
-https://github.ccs.neu.edu/pantu16/tracker-ui
-
 ### Summary
 
 In this chapter the application was finally deployed. Heroku was used as a Platform as a Service to deploy and mantain the application live.
@@ -22,7 +16,7 @@ Repos for UI and API were created separately and those were deployed individuall
 graphql. One of the most challeging parts on this chapter was to connect an online database to the application. At the end of the chapter Proxy
 mode was used to share the same resources between API and UI applications.
 
-![Ch15 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter15.png)
+![Ch15 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter15.png)
 
 ### Notes
 
@@ -80,7 +74,7 @@ Add flag `changeOrigin`: true in ui/server.js, on the `apiProxyTarget` condition
 
 In this chapter Google Sign-In was implemented as a mean to identify users. The application allows the user to view all the information without signing in, but to make any changes, they have to sign in. It ensures that the entire pages can be rendered at the UI server even though they are authenticated pages.
 
-![Ch14 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter14.png)
+![Ch14 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter14.png)
 
 ### Notes
 
@@ -192,9 +186,9 @@ Set environment variables and configure your UI server so that the API endpoint 
 
 In this chapter we implemented different features such as reusing code across component to display the Toast messages, the Report page using aggregate function of MondoDB. Also, implemented pagination in the IssueLits page to display larger lists using skip and offset of `find()` in MongoDB. Additionally,  a `undo` operation was implemented when deleting issues to recover them. Finally, a search bar was implemented to allow users look for issues using keywords.
 
-![Ch13_1 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter13_1.png)
+![Ch13_1 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter13_1.png)
 
-![Ch13_2 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter13_2.png)
+![Ch13_2 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter13_2.png)
 
 ### Notes
 
@@ -294,7 +288,7 @@ To have a properly indexed application, the server needs to respond with the sam
  - `Server Rendering`. The first time any page is opened in the application (typing URL or refreshing the browser), the entire page will be constructed and returned from the server.
  - `Browser Rendering`. Once any page is loaded and the user navigates to another page, it will work as a SPA. Only the API will be made, and the DOM will be modified directly on the browser. 
 
-![Ch12 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter12.png)
+![Ch12 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter12.png)
 
 ### Notes
 
@@ -415,7 +409,7 @@ A request to the home page `/`, returns a HTML from the server that contains an 
 
 In this chapter, the UI style was improved using React-Bootstrap. Therefore, making it look more professional. Different bootstrap components were implemented such as Table, Inline forms, horizontal forms, panels and Toast. Also, the Create Issue functionality was implemented as a modal component that can be accessed from any page on the application.
 
-![Ch11 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter11.png)
+![Ch11 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter11.png)
 
 ### Notes
 
@@ -542,9 +536,9 @@ o	Move the NavITem from Create Issue from the navigation bar to this new compone
 
 In this chapter some user’s forms were implemented. The filter was modified and the Edit page as well to incorporate a form. Additional filters were added. Also, the functionality to close and delete  issues from the list was also included. Back-end APIs to update and delete issues were incorporated.
 
-![Ch10_1 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter10_1.png)
+![Ch10_1 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter10_1.png)
 
-![Ch10_2 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter10_2.png)
+![Ch10_2 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter10_2.png)
 
 ### Notes
 
@@ -656,7 +650,7 @@ In order to affect routing, any page needs to be connected to something that the
  - `Browser history`. Uses a new HTML5 API that lets JavaScript handle the page transitions, at the same time preventing the browser from reloading the page when the URL changes. It is useful when we want to render a complete page from the server itself, especially to let search engine crawlers get the content of the pages and index them.
 
 
-![Ch9 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter9.png)
+![Ch9 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter9.png)
 
 ### Notes
 
@@ -744,8 +738,8 @@ This chapter helped to further improve the architecture of the application by sp
 
 Screenshots from Chrome and Firefox.
 
-![Ch8 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter8.png)
-![Ch8_2 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter8_2.png)
+![Ch8 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter8.png)
+![Ch8_2 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter8_2.png)
 
 ### Notes
 
@@ -815,9 +809,9 @@ Webpack provides source maps, that contain your original source code as typed in
 
 This chapter helped to work in the architecture of the application and allow for more traffic. It added a package `dotenv` to help run the same code on different environments using different configurations for each environment, such as development and production. It helped to learn about CORS implications and using a proxy. Also, `ESLint` was used to write code according to good practices.
 
-![Ch7_1 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter7_1.png)
+![Ch7_1 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter7_1.png)
 
-![Ch7_2 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter7_2.png)
+![Ch7_2 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter7_2.png)
 
 ### Notes
 
@@ -885,7 +879,7 @@ The properties being passed from one component to another can also be validated 
 
 This chapter helped to learn about MongoDB, which will serve as the database for the Issue Tracker application. The array of issues stored in the server was replaced with a real data base that allows read and write operations. To use MongoDB, the mongo shell and a driver for Node.js  was installed to have access to the database and have access to the CRUD operations. A modification on the server-side code was required to replace the API that allowed access to the array of issues.
 
-![Ch6 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter6.png)
+![Ch6 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter6.png)
 
 ### Notes
 
@@ -1059,7 +1053,7 @@ This chapter helped to learn how to integrate the back-end server for the data. 
 
 Also, the basics of GraphQL were covered while implementing APIs to create an issue, and to display error messages to the user. Furthermore, some input validation was implemented by the end of the chapter.
 
-![Ch5 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter5.png)
+![Ch5 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter5.png)
 
 ### Notes
 
@@ -1238,7 +1232,7 @@ the concept of asynchronous state initialization was introduced, using `setTimeO
 
 In terms of progress of the book project. During this chapter progress was made by creating a button in place of the placeholder text in the IssueAdd component. This button allows the user to add a new `issue` to the list, specifying the Owner and the Title for the new issue.
 
-![Ch4 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter4.png)
+![Ch4 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter4.png)
 
 ### Notes:
 
@@ -1312,7 +1306,7 @@ It was defined that the requirements for the application include:
   - Effort required, number of days.
   - Estimated completion date or due date, Date component.
 
-![Ch3 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter3.png)
+![Ch3 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter3.png)
 
 ### Notes:
 
@@ -1365,7 +1359,7 @@ Hello World! application, using HTML and a React element to render the applicati
 Afterwards it introduced Node.js and Express to serve that application from a web server. Also, the chapter
 explained the purpose of Babel, which is a compiler that can be used in the browser to transform JSX into JavaScript.
 
-![Ch2 Image](https://github.ccs.neu.edu/NEU-CS5610-SU20/PedroCantu-Book/blob/master/readme-images/chapter2.png)
+![Ch2 Image](https://github.com/pedrocantu16/IssueTracker/blob/master/readme-images/chapter2.png)
 
 ### Notes:
 
